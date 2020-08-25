@@ -39,7 +39,7 @@ function setup() {
   ground = createSprite(200,380,400,20);
   ground.addImage("ground",groundImage);
   ground.x = ground.width /2;
-  ground.velocityX = -2;
+  ground.velocityX = -2+3*count/100;
   
   invisibleGround = createSprite(200,385,400,5);
   invisibleGround.visible = false;
